@@ -4,7 +4,7 @@ A small tool written in C# to manage the installation of the ExtraRoles Mod for 
 ![character infographic](./Mod_Manager.png)
 
 # How to Use
-
+[TL;DR - Here is a short instruction video](https://www.youtube.com/watch?v=2gFkVpIh8YI)
 ## Preparation
 * Download the [latest release](https://github.com/heinzef/ExtraRolesAmongUs-Manager/releases/latest) of the Mod Manager.
 * Extract the .zip file to a folder based on your choice and run the ExtraRolesModManager.exe

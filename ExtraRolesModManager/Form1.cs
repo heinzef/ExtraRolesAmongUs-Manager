@@ -58,6 +58,7 @@ namespace ExtraRolesModManager
                 }
                 else
                 {
+                    this.CheckUpdateButton.Enabled = true;
                     this.DirectoryLabel.Text = $"Game Directory: {this.Manager.GameRootDirectory}";
                 }
             }

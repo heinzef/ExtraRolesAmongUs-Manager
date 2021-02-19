@@ -14,6 +14,7 @@ A small tool written in C# to manage the installation of the ExtraRoles Mod for 
 
 ### Selecting the root directory
 * Click on *Select Among Us Directory* and navigate and choose the root folder of your Among Us Game. It is the folder where also the *Among Us.exe* file is located.
+* Most of the time it is this one: *C:\Program Files (x86)\Steam\steamapps\common\Among Us*
 
 ### Installing / Updating the mod
 * When you selected the root directory click on *Check for Update* to scan for the latest release of the ExtraRoles Mod. If there is a newer version you will be asked if you want to install it. Click on *Yes* and the files will be downloaded and extracted to your chosen game directory. The old version will be overwritten.

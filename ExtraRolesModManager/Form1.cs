@@ -24,7 +24,7 @@ namespace ExtraRolesModManager
         private void OnLoad(object sender, EventArgs e)
         {
             this.Manager.InitManager();
-            this.DirectoryLabel.Text = this.Manager.GameRootDirectory;
+            this.DirectoryLabel.Text = $"Game Directory: {this.Manager.GameRootDirectory}";
 
             if (FileOperations.IsValidAmongUsDirectory(this.Manager.GameRootDirectory))
             {
@@ -55,6 +55,10 @@ namespace ExtraRolesModManager
                 if(!setSuccessfully)
                 {
                     MessageBox.Show("Among Us.exe could not be found. Make sure to select the Among Us root directory.", "Error");
+                }
+                else
+                {
+                    this.DirectoryLabel.Text = $"Game Directory: {this.Manager.GameRootDirectory}";
                 }
             }
             this.SetStatus("");

@@ -1,7 +1,7 @@
 # Extra Roles Mod Manager
 A small tool written in C# to manage the installation of the ExtraRoles Mod for Among Us by [NotHunter101](https://github.com/NotHunter101/ExtraRolesAmongUs)
 
-![character infographic](./ModManager.png)
+![character infographic](./Mod_Manager.png)
 
 # How to Use
 

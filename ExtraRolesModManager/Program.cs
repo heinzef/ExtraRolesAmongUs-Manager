@@ -4,12 +4,12 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ExtraRolesUpdater
+namespace ExtraRolesModManager
 {
     static class Program
     {
         /// <summary>
-        /// Der Haupteinstiegspunkt für die Anwendung.
+        /// Main Entry Point for the application
         /// </summary>
         [STAThread]
         static void Main()

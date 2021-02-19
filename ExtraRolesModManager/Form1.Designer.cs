@@ -1,5 +1,5 @@
 ﻿
-namespace ExtraRolesUpdater
+namespace ExtraRolesModManager
 {
     partial class mainForm
     {
@@ -111,7 +111,7 @@ namespace ExtraRolesUpdater
             this.linkLabel1.Size = new System.Drawing.Size(197, 23);
             this.linkLabel1.TabIndex = 6;
             this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "Mod Manager by HORST";
+            this.linkLabel1.Text = "Mod Manager by Fabian";
             this.linkLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LinkLabelClicked);
             // 
@@ -140,7 +140,7 @@ namespace ExtraRolesUpdater
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::ExtraRolesUpdater.Properties.Resources.characterGraphic1;
+            this.pictureBox1.Image = global::ExtraRolesModManager.Properties.Resources.characterGraphic1;
             this.pictureBox1.Location = new System.Drawing.Point(12, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(445, 200);

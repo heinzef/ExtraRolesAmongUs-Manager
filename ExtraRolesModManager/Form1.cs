@@ -60,6 +60,12 @@ namespace ExtraRolesModManager
                 {
                     this.CheckUpdateButton.Enabled = true;
                     this.DirectoryLabel.Text = $"Game Directory: {this.Manager.GameRootDirectory}";
+                    this.Manager.LoadModVersion();
+                    if (this.Manager.ModFileLoaded)
+                    {
+                        this.DeleteModButton.Enabled = true;
+                        this.CurrentVersionLabel.Text = $"Installed ExtraRoles Mod Version: {(this.Manager.ModVersion == "" ? "None" : this.Manager.ModVersion)}";
+                    }
                 }
             }
             this.SetStatus("");
